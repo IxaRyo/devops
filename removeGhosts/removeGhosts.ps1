@@ -2,6 +2,13 @@
 
 https://theorypc.ca/2017/06/28/remove-ghost-devices-natively-with-powershell/
 
+done：
+
+set devmgr_show_nonpresent_devices=1
+start devmgmt.msc
+
+after this shell ,you also need to cmd : Get-ChildItem | ?{$_.Name -like “xen*”} | Remove-Item
+
 .SYNOPSIS
    Removes ghost devices from your system
 .DESCRIPTION
