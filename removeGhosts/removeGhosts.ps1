@@ -1,7 +1,9 @@
 <#
+
+https://theorypc.ca/2017/06/28/remove-ghost-devices-natively-with-powershell/
+
 .SYNOPSIS
    Removes ghost devices from your system
-
 .DESCRIPTION
     This script will remove ghost devices from your system.  These are devices that are present but have a "InstallState" as false.  These devices are typically shown as 'faded'
     in Device Manager, when you select "Show hidden and devices" from the view menu.  This script has been tested on Windows 2008 R2 SP2 with PowerShell 3.0, 5.1 and Server 2012R2
